@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+   
+}
+.maincontainer{
+    min-width: 100vw;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.container{
+    width: 1080px;
+}
+.figma-header{
+    line-height: 38px;
+    height: 38px;
+    width: 100%;
+    background-color:#000000;
+    flex-direction: row;
+    position: relative;
+    p{
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+       margin-top: 1rem;
+    }
+    span{
+        text-decoration: underline;
+    }
+    img{
+        width: 13.13px;
+        height: 13.13px;
+    }
+}
+.headerimg{
+    position: absolute;
+    left: 90%;
+}
+nav{
+    margin: 2rem;
+}
+
+.container-fluid{
+    background: transparent;
+}
+.d-flex{
+    gap: 1rem;
+    margin-right: 5rem;
+    .form-control {
+        height: 8vh;
+        width: 30vw;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        background-color: #F0F0F0;
+    }
+}
+.navbar-nav{
+    margin-left: 1.5rem;
+   a{
+        color: #000000;
+    }
+}
+.main-section{
+    background-color: #F0F0F0;
+    position: relative;
+    flex-direction: row;
+    /* height: 100vh; */
+    gap: 8rem;
+ }
+ .leftcontent{
+     flex-direction: column;
+     gap: 35px;
+     width: 45%;
+     padding: 20px;
+     padding-top: 20px;
+    margin-left: 2rem;
+     h1{
+         font-size: 56px;
+         color: #000000;
+     }
+     p{
+         font-family: 16px;
+         line-height: 22px;
+         color: gray;
+     }
+     .btn{
+        button{
+            padding: 1rem 3rem;
+            border-radius: 2rem;
+            border: none;
+            background-color: #000000;
+            color: #fff;
+        }
+     }
+ }
+ .items{
+    gap: 10px;
+ }
+ .leftcontent .item{
+    /* background-color: aquamarine; */
+    height: 80px;
+    width: 130px;
+ }
+ .rightcontent img{
+    height: 117vh;
+ }
+ .company-section{
+    background-color: #000000;
+    justify-content: space-around;
+    height: 16vh;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 48px;
+        font-weight: 700;
+}
+.product{
+    margin-top: 2rem;
+   gap: 10px;
+   flex-wrap: wrap;
+   padding-block:20px ;
+}
+.product-content{
+    width: 20vw;
+    flex-direction: column;
+    gap: 5px;
+    p{
+        font-size: 20px;
+        font-weight: 700;
+        span{
+            text-decoration: line-through;
+            color: gray;
+        }
+        button{
+            padding: 0.4rem 0.6rem;
+            margin-left: 9px;
+            color: #FF3333;
+            background-color: #f2bbbb ;
+            border-radius: 1rem;
+            border: none;
+            }
+    }
+}
+.rate{
+    gap: 4px;
+    font-size: 1.2rem;
+    color: orange;
+    ion-icon {
+        margin-bottom: 1.2rem;
+    }
+    .ratenumber{
+        color: black;
+        text-decoration: none;
+       margin-top: 3rem;
+    }
+}
+ .product .button{
+    margin: 40px;
+    button{
+     padding: 15px 59px;
+     border-radius: 63px;
+     border: 1px solid gray;
+     outline: none;
+     background: transparent;
+    }
+ }
+.imgsection{
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+ .dressstyle-content{
+    background-color:#F0F0F0;
+    border-radius: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+ }
+ 
+ .stylesofdress{
+    gap: 10px;
+    p{
+        font-size: 1.8rem;
+        padding-left: 2rem;
+    }
+    .img1{
+        height: 40vh;
+        width: 30vw;
+        background: url(image\ 11.png)no-repeat;
+        border-radius: 1rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .img2{
+        height: 40vh;
+        width: 50vw;
+        background: url(image\ 13.png)no-repeat;
+        border-radius: 1rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .img3{
+        height: 40vh;
+        width: 50vw;
+        background: url(image\ 12.png)no-repeat;
+        border-radius: 1rem;
+        background-position: center;
+        background-size: cover;
+    }
+    .img4{
+        height: 40vh;
+        width: 30vw;
+        background: url(image\ 14\ \(9\).png)no-repeat;
+        border-radius: 1rem;
+        background-position: center;
+        background-size: cover;
+    }
+ }
+
+ .aboutcustomers{
+    margin: 3rem;
+    gap: 20px;
+    flex-direction: column;
+    .cards{
+        flex-direction: row;
+        gap: 7px;
+        h6{
+            color: #000000 !important;
+            ion-icon{
+                color: green;
+                font-size: 1.2rem;
+            }
+        }
+        p{
+            color: gray;
+        }
+    }
+    h1{
+        text-align: left;
+        width: 100%;
+    }
+ }
+ .abouthead{
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    font-size: 3rem;
+    ion-icon{
+        margin-top: 3rem;
+    }
+ }
+ .card{
+    padding: 0.4rem;
+    width: 30vw !important;
+ }
+ .blurcard{
+    color:rgba(0,0,0,0.1);
+ }
+ footer{
+    width: 100vw;
+    /* background-color: black; */
+    box-sizing: border-box;
+ }
+ .col-lg-3{
+    gap: 20px;
+    flex-direction: column;
+    font-size: 1.5rem;
+ }
+ .left{
+    flex-direction: column;
+    /* background-color: #FF3333; */
+    padding: 2rem;
+    gap: 20px;
+    img{
+        margin-right: 5rem;
+    }
+ }
+ .ion{
+    gap: 10px;
+    font-size: 2rem;
+    ion-icon{
+        /* background-color: #FF3333; */
+        padding:5px;
+        border-radius: 50%;
+    }
+    .twitter,.instagram,.github{
+        background-color: #fff;
+        color: #000000;
+        border: 2px solid gray;
+    }
+    .facebook{
+        color: #fff;
+        background-color: #000000;
+    }
+ }
